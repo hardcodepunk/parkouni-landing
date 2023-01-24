@@ -1,3 +1,41 @@
+@font-face {
+  font-family: 'Karla';
+  src: url('../fonts/Karla-Regular.woff2') format('woff2'),
+      url('../fonts/Karla-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+      url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/fonts/Roboto-BlackItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 // =============================================
 // Mixin - Typography
 // =============================================
@@ -6,7 +44,6 @@
   margin: 0;
   line-height: 34px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
   font-weight: 900;
   font-style: italic;
   font-size: 170px;
@@ -44,10 +81,9 @@
 @mixin title-5 {
   margin: 0;
   margin-bottom: 35px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.5px;
   line-height: 27px;
   text-rendering: optimizeLegibility;
 }
