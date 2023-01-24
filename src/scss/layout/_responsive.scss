@@ -140,10 +140,10 @@
     flex-direction: row;
     &__content {
       &__title {
-        font-size: 90px;
-        line-height: 74px;
+        font-size: 70px;
+        line-height: 60px;
         &__sub-title {
-          font-size: 74px;
+          font-size: 57px;
         }
       }
     }
@@ -166,6 +166,14 @@
     display: flex !important;
     grid-template-columns: none !important;
     width: auto !important;
+  }
+  .footer {
+    &__contact {
+      h2, .title-2 {
+      font-size: 17px;    
+      line-height: 30px;
+      }
+    }
   }
   h3, .title-3 {
     margin-bottom: 40px;

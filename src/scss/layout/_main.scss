@@ -169,7 +169,7 @@
 #mc_embed_signup form {
   background: none;
   clear: none;
-  font-family: "Roboto" ,sans-serif;
+  font-family: 'Roboto' ,sans-serif;
   font-size: 16px;
   margin: 0;
   display: flex !important;
@@ -224,51 +224,13 @@
 .footer {
   padding: 60px 0 70px;
   background: $blue;
-  &__mailchimp {
-    #mc_embed_signup form {
-      background: $gray;
-      clear: none;
-      font-family: "Roboto" ,sans-serif;
-    }
-    
-    #mce-success-response, 
-    #mce-error-response {
-      color: #fff;
-      font-size: 12px;
-    }
-    
-    #mc_embed_signup #mc-embedded-subscribe-form input {
-      border: none !important;
-      background: $blue !important;
-      color: #fff !important;
-      border-radius: 0%;
-      padding: 0 20px;
-      margin-right: 20px;
-      width: 240px;
-      &:focus {
-        border: none !important;
-      }
-    }
-    
-    #mc_embed_signup #mc-embedded-subscribe-form input.cta {
-      padding: 15px 50px;
-      margin: 0;
-      width: auto;
-      height: auto;
-    }
-    
-    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-      display: none !important;
-    }
-    
-    #mc_embed_signup .mc-field-group {
-      clear: none !important;
-      width: auto !important;
-      padding-bottom: 0 !important;
-      min-height: auto !important;
-      display: flex !important;
-    }
-  } 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__contact {
+    width: 100%;
+    text-align: center;
+  }
   .row {
       display: flex;
       justify-content: space-between;
@@ -280,7 +242,7 @@
     display: flex;
     justify-content: center;
     color: $gray;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     &__url {
       color: $blue;
     }
@@ -290,6 +252,22 @@
 /*
  * styling
  */
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+::-ms-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
 
 .social-icon {
   height: 25px;
@@ -456,7 +434,7 @@
   text-transform: uppercase;
   transition: all 0.4s ease-out;
   color: $blue;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #fff;
 }
