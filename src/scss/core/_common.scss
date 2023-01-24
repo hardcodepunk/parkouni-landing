@@ -1,5 +1,12 @@
 html {
   overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 html, body {
@@ -11,8 +18,9 @@ html, body {
   * ============================================ */
 
 body {
-  font-family: futura-pt, sans-serif;
+  font-family: 'Karla', sans-serif;
   background: $gray;
+  color: #fff;
 }
 
 h1, .title-1 { @include title-1; }

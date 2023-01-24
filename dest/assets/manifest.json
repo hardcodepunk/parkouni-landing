@@ -1,7 +1,7 @@
 {
-  "short_name": "Kipu",
-  "name": "Kipu Deluxe",
-  "description": "Kipu Deluxe, práctica de osteopatía y masaje, con respeto por el cuerpo y la mente, ubicada en Barcelona.",
-  "background_color": "#dedee6",
-  "theme_color": "#c0aee8",
+  "short_name": "PKI",
+  "name": "Parkour University",
+  "description": "Parkour University, parkour/freerunning in het onderwijs!",
+  "background_color": "##1f1f21",
+  "theme_color": "#618fae"
 }
